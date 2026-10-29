@@ -50,7 +50,7 @@ The pipeline extracts retail sales data from a CSV file, transforms the data by 
 
 
 
-```text
+
 
 Raw CSV Data
 
@@ -89,8 +89,6 @@ SQL Analysis (run\_analysis.py)
 &#x20;    v
 
 Sales Insights
-
-```
 
 
 
