@@ -82,7 +82,7 @@ Load into SQLite (load.py)
 
 &#x20;    v
 
-SQL Analysis (analysis.sql)
+SQL Analysis (run\_analysis.py)
 
 &#x20;    |
 
@@ -132,7 +132,7 @@ retail-sales-data-engineering-pipeline/
 
 
 
-\## ⚙️ How to Run
+\## ⚙️ How to Run the Project
 
 
 
@@ -146,7 +146,11 @@ retail-sales-data-engineering-pipeline/
 
 
 
-\### 1. Clone the repository
+SQLite is available through Python's built-in `sqlite3` module.
+
+
+
+\### Step 1: Clone the repository
 
 
 
@@ -160,7 +164,7 @@ cd retail-sales-data-engineering-pipeline
 
 
 
-\### 2. Extract the data
+\### Step 2: Extract the data
 
 
 
@@ -172,7 +176,7 @@ python src/extract.py
 
 
 
-\### 3. Transform the data
+\### Step 3: Transform the data
 
 
 
@@ -184,7 +188,7 @@ python src/transform.py
 
 
 
-\### 4. Load data into SQLite
+\### Step 4: Load the data into SQLite
 
 
 
@@ -196,7 +200,7 @@ python src/load.py
 
 
 
-\### 5. Run SQL analysis
+\### Step 5: Run SQL analysis
 
 
 
@@ -205,6 +209,24 @@ python src/load.py
 python src/run\_analysis.py
 
 ```
+
+
+
+\## 📊 Key Features
+
+
+
+\- CSV data extraction
+
+\- Data transformation using Python
+
+\- Revenue calculation
+
+\- SQLite database loading
+
+\- SQL-based sales analysis
+
+\- Reproducible pipeline execution
 
 
 
@@ -227,4 +249,6 @@ Python | SQL | ETL Pipelines | SQLite | CSV Processing | Data Transformation | G
 Aspiring Data Engineer
 
 
+
+\[GitHub Profile](https://github.com/jayasriaids-ux)
 
