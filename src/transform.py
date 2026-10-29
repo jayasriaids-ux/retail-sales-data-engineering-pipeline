@@ -3,6 +3,9 @@ import csv
 
 input_file = "data/raw/retail_sales.csv"
 output_file = "data/processed/retail_sales_transformed.csv"
+import os
+
+os.makedirs("data/processed", exist_ok=True)
 
 with open(input_file, "r", newline="", encoding="utf-8") as file:
     reader = csv.DictReader(file)
