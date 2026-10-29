@@ -42,7 +42,7 @@ The pipeline extracts retail sales data from a CSV file, transforms the data by 
 
 \- \*\*CSV\*\* – Data storage and processing
 
-\- \*\*Git \& GitHub\*\* – Version control
+\- \*\*Git and GitHub\*\* – Version control
 
 
 
@@ -50,7 +50,7 @@ The pipeline extracts retail sales data from a CSV file, transforms the data by 
 
 
 
-
+```text
 
 Raw CSV Data
 
@@ -89,6 +89,8 @@ SQL Analysis (run\_analysis.py)
 &#x20;    v
 
 Sales Insights
+
+```
 
 
 
@@ -148,7 +150,7 @@ SQLite is available through Python's built-in `sqlite3` module.
 
 
 
-\### Step 1: Clone the repository
+\### Step 1: Clone the Repository
 
 
 
@@ -162,7 +164,7 @@ cd retail-sales-data-engineering-pipeline
 
 
 
-\### Step 2: Extract the data
+\### Step 2: Extract the Data
 
 
 
@@ -174,7 +176,7 @@ python src/extract.py
 
 
 
-\### Step 3: Transform the data
+\### Step 3: Transform the Data
 
 
 
@@ -186,7 +188,7 @@ python src/transform.py
 
 
 
-\### Step 4: Load the data into SQLite
+\### Step 4: Load the Data into SQLite
 
 
 
@@ -198,7 +200,7 @@ python src/load.py
 
 
 
-\### Step 5: Run SQL analysis
+\### Step 5: Run SQL Analysis
 
 
 
